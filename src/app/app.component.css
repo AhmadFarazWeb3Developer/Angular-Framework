@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(151, 76, 151);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+button {
+  color: white;
+  background-color: blueviolet;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 8%;
+}
