@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+h1 {
+  color: #a497d4;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+  width: 50%;
+  border-radius: 8px;
+  background-color: #e3e3e3;
+}
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 20px;
+  text-align: center;
+  border: 2px solid #5a5668;
+  background-color: #a497d4;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width: 100%;
+}
+input::placeholder {
+  color: white;
+}
+
+input:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.shape {
+  margin: 20px auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shape:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: #3498db;
+  border-radius: 50%;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: #e74c3c;
+}
+
+.rectangle {
+  width: 150px;
+  height: 100px;
+  background: #2ecc71;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #f1c40f;
+  margin: auto;
+}
