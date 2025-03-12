@@ -1,10 +1,10 @@
 {
   "name": "lab5",
   "version": "1.0.0",
-  "main": "append.js",
+  "main": "./merge_txt_file/merge.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon read.js"
+    "start": "nodemon merge.js"
   },
   "keywords": [],
   "author": "",
