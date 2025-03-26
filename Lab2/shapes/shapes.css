@@ -27,7 +27,7 @@ input {
   font-size: 16px;
   margin: 20px;
   text-align: center;
-  border: 2px solid #5a5668;
+  border: 1px solid #5a5668;
   background-color: #a497d4;
   color: white;
   border-radius: 5px;
@@ -45,7 +45,9 @@ input:hover {
 
 .shape {
   margin: 20px auto;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .shape:hover {

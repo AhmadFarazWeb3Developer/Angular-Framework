@@ -18,8 +18,8 @@
         }
 
         .planet {
-            width: 100px;
-            height: 100px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             display: inline-block;
             transition: transform 0.5s;

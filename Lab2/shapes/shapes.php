@@ -3,14 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Draw Shapes with AngularJS</title>
+  <title>Seardh Shapes with AngularJS</title>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
   <link rel="stylesheet" href="shapes.css?ver=<?php echo time(); ?>">
 
 </head>
 
 <body ng-controller="ShapesController">
-  <h1>Draw a Shape</h1>
+  <h1>Search a Shape</h1>
   <div class="container">
 
     <input type="text" ng-model="shapeName" placeholder="Enter shape: circle, square, rectangle, triangle">
